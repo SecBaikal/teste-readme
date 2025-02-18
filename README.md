@@ -1,4 +1,4 @@
-  <h2>Versões Utilizadas no Projeto</h2>
+  <h2>CYBERTRACKER API</h2>
 
 <h3>1. Ruby</h3>
 <p>O Ruby é uma linguagem de programação dinâmica, de alto nível e orientada a objetos, amplamente utilizada para o desenvolvimento de aplicações web. No projeto, estamos utilizando a versão 2.7.2 do Ruby.</p>
