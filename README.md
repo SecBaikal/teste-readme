@@ -63,34 +63,34 @@
 
 <h2>5. Instalção Bundler E Ruby gems</h2>
 
-<h3>5.2. Exibir versão do Bundler</h3>
+<h3>5.1. Exibir versão do Bundler</h3>
 <pre><code>bundle --version</code></pre>
 
-<h3>5.4. Verificar o Bundler</h3>
+<h3>5.2. Verificar o Bundler</h3>
 <pre><code>bundle --version</code></pre>
 
-<h3>5.5. Remover o Bundler do sistema</h3>
+<h3>5.3. Remover o Bundler do sistema</h3>
 <pre><code>gem uninstall bundle</code></pre>
 
-<h3>5.6. Reinstalar o Bundler</h3>
+<h3>5.4. Reinstalar o Bundler</h3>
 <pre><code>gem install bundler -v 2.4.22</code></pre>
 
-<h3>5.7. Confirmar instalação do Bundler</h3>
+<h3>5.5. Confirmar instalação do Bundler</h3>
 <pre><code>bundle --version</code></pre>
 
-<h3>5.9. Verificar versão do RubyGems</h3>
+<h3>5.6. Verificar versão do RubyGems</h3>
 <pre><code>gem -v</code></pre>
 
-<h3>5.10. Atualizar RubyGems</h3>
+<h3>5.7. Atualizar RubyGems</h3>
 <pre><code>gem update --system 3.1.4</code></pre>
 
-<h3>5.11. Verificar funcionamento do Bundler após atualização</h3>
+<h3>5.8. Verificar funcionamento do Bundler após atualização</h3>
 <pre><code>bundle --version</code></pre>
 
-<h3>5.12. Instalar dependências do Gemfile</h3>
+<h3>5.9. Instalar dependências do Gemfile</h3>
 <pre><code>bundle install</code></pre>
 
-<h3>5.13. Instalar gem nio4r</h3>
+<h3>5.10. Instalar gem nio4r</h3>
 <pre><code>gem install nio4r -v '2.5.8' --source 'https://rubygems.org/'</code></pre>
 
 <h2>6. Verificar portas abertas</h2>
