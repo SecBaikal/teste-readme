@@ -12,7 +12,7 @@
 
 <h2>Documentação de Instalação do RVM, Ruby e Rails</h2>
 
-<h2>1. Remover a RVM</h2>
+<h2>1. Remover a RVM (Caso já tenha instalado outra versão)</h2>
 <p>Para remover a RVM do seu sistema, execute o seguinte comando:</p>
 <pre><code>rvm implode</code></pre>
 
