@@ -61,16 +61,10 @@
 <p>Para gerar a documentação Ruby Index (RI) para as versões do Ruby instaladas via RVM:</p>
 <pre><code>rvm docs generate-ri</code></pre>
 
-<h2>5. Comandos Gerais</h2>
-
-<h3>5.1. Verificar versão do Ruby</h3>
-<pre><code>ruby --version</code></pre>
+<h2>5. Instalção Bundler E Ruby gems</h2>
 
 <h3>5.2. Exibir versão do Bundler</h3>
 <pre><code>bundle --version</code></pre>
-
-<h3>5.3. Forçar a instalação do Ruby</h3>
-<pre><code>rvm install "ruby-2.7.2" --force</code></pre>
 
 <h3>5.4. Verificar o Bundler</h3>
 <pre><code>bundle --version</code></pre>
@@ -83,9 +77,6 @@
 
 <h3>5.7. Confirmar instalação do Bundler</h3>
 <pre><code>bundle --version</code></pre>
-
-<h3>5.8. Exibir versões do Ruby instaladas</h3>
-<pre><code>rvm list</code></pre>
 
 <h3>5.9. Verificar versão do RubyGems</h3>
 <pre><code>gem -v</code></pre>
@@ -102,31 +93,31 @@
 <h3>5.13. Instalar gem nio4r</h3>
 <pre><code>gem install nio4r -v '2.5.8' --source 'https://rubygems.org/'</code></pre>
 
-<h3>5.14. Verificar portas abertas</h3>
+<h2>6. Verificar portas abertas</h2>
 <pre><code>sudo fuser 5432/tcp</code></pre>
 
-<h3>5.15. Matar processo de porta</h3>
+<h3>6.1. Matar processo de porta</h3>
 <pre><code>sudo kill 1090</code></pre>
 
-<h3>5.16. Criar e migrar banco de dados do Rails</h3>
+<h2>7. Criar/migrar banco de dados do Rails e subir o projeto</h2>
 <pre><code>rails db:create</code></pre>
 <pre><code>rails db:migrate</code></pre>
 
-<h3>5.17. Rodar o servidor Rails</h3>
+<h3>7.1. Rodar o servidor Rails</h3>
 <pre><code>rails s</code></pre>
 
-<h2>6. Login no Front</h2>
+<h2>8. Login no Front</h2>
 <p>Para acessar o console do Rails, use o comando:</p>
 <pre><code>rails console</code></pre>
 
-<h3>6.1. Criar um novo usuário</h3>
+<h3>8.1. Criar um novo usuário</h3>
 <pre><code>user = User.new(email: 'seu_email@example.com', password: 'sua_senha_aqui')</code></pre>
 
-<h3>6.2. Procurar um usuário</h3>
+<h3>8.2. Procurar um usuário</h3>
 <pre><code>user = User.find_by(email: 'youruser@gmail.com.com')</code></pre>
 
-<h3>6.3. Alterar senha do usuário</h3>
+<h3>8.3. Alterar senha do usuário</h3>
 <pre><code>user.password = '10203040!'</code></pre>
 
-<h3>6.4. Salvar o usuário</h3>
+<h3>8.4. Salvar o usuário</h3>
 <pre><code>user.save!</code></pre>
